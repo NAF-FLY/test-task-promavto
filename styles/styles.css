@@ -33,7 +33,7 @@ label {
 }
 
 .checkbox:checked + .checkbox_new::after {
-	content: url(../../assets/images/check.svg);
+	content: url(../../../../images/check.svg);
 	background: center #cb11ab;
 	border-color: transparent;
 }
