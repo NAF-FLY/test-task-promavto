@@ -6,7 +6,6 @@ const getData = async () => {
 	try {
 		const response = await fetch('https://api.github.com/users/naf-fly')
 		const data = await response.json()
-
 		avatar.src = data.avatar_url
 		nickname.textContent = data.login
 	} catch (error) {
